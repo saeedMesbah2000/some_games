@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+h1{
+    margin: 40px 0px;
+}
+
+#display {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px 20px;
+}
+
+img{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
